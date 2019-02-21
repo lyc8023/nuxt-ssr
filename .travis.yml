@@ -14,7 +14,6 @@ before_install:
 install:
 - npm install
 - npm run build
-- npm run start
 script:
 - echo "Skipping tests"
 addons:
