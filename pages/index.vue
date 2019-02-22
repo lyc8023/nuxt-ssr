@@ -7,10 +7,10 @@
       </h1>
       <h2 class="subtitle">
         Welcome to the iView + Nuxt.js template SSR
-        <nuxt-link to="/about">
-          About Page
-        </nuxt-link>
       </h2>
+      <nuxt-link to="/about">
+        About Page
+      </nuxt-link>
       <div class="links">
         <Button type="primary" target="_blank" to="https://nuxtjs.org/">
           Documentation
