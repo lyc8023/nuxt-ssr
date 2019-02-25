@@ -38,7 +38,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
   ],
   /*
   ** Axios module configuration
@@ -63,6 +64,15 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+    }
+  },
+  proxy: {
+    '/koa-api': {
+      target:
+        process.env.NODE_ENV === 'development' ? 'http://localhost:3001' : '',
+      pathRewrite: {
+        '^/koa-api': '/'
       }
     }
   }
