@@ -69,10 +69,7 @@ module.exports = {
   },
   proxy: {
     '/koa-api': {
-      target:
-        process.env.NODE_ENV === 'development'
-          ? 'http://localhost:3001'
-          : 'http://liyuancheng.xyz',
+      target: 'http://localhost:3001',
       pathRewrite: {
         '^/koa-api': '/'
       }
