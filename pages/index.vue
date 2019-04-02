@@ -6,7 +6,7 @@
         nuxt-ssr
       </h1>
       <h2 class="subtitle">
-        Welcome to the iView + Nuxt.js template SSR
+        Welcome to the iView + Nuxt.js + travis CI template
       </h2>
       <nuxt-link to="/about">
         About Page
