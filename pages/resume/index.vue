@@ -75,6 +75,18 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: '个人简历',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: '李元成的个人简历'
+        }
+      ]
+    }
   }
 }
 </script>
@@ -83,10 +95,6 @@ export default {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-}
-body,
-html {
-  height: 100%;
 }
 a {
   text-decoration: none;

@@ -11,6 +11,9 @@
         koa
       </li>
       <li class="skill-li">
+        GraphQL
+      </li>
+      <li class="skill-li">
         jQuery
       </li>
     </ul>
@@ -42,9 +45,6 @@
     <section class="skill-section">
       <p class="status-p">
         带过前端团队，追求页面美观性能优化代码规范，能快速使用常见插件，开发效率高，逻辑思维强，对设计以及后台均有涉及。
-      </p>
-      <p class="status-p">
-        最近在学习node项目规范，研究前端调用GraphQL接口问题。
       </p>
     </section>
   </div>
