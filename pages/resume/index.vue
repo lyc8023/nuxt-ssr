@@ -132,6 +132,7 @@ li {
     width: 20px;
     height: 20px;
     cursor: pointer;
+    opacity: 0.6;
   }
 }
 @media screen and (max-width: 640px) {
@@ -151,11 +152,14 @@ li {
     background: #f5f5f5;
     z-index: 99;
     &::after {
-      position: static;
-      font-size: 16px;
+      left: unset;
+      font-size: 14px;
     }
     .load-img {
+      width: 16px;
+      height: 16px;
       vertical-align: middle;
+      margin-left: -30px;
     }
   }
 }

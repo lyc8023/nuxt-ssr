@@ -175,7 +175,6 @@ export default {
   padding: 20px 0px 40px 0px;
   .question-aside {
     display: flex;
-    height: 350px;
     margin-bottom: 100px;
     .border;
     margin-top: 20px;
