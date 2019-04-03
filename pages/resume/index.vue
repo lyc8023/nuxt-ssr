@@ -35,7 +35,7 @@
         <component :is="currentTabComponent" />
       </transition>
     </div>
-    <a href="/ssr/doc/lyc.docx" download="李元成的简历.docx" target="blank" class="download-p">
+    <a href="/ssr/lycResume.pdf" download="李元成的简历.pdf" target="blank" class="download-p">
       <img src="@/assets/resume/download.png" alt="" class="load-img">
     </a>
   </div>
