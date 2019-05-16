@@ -44,7 +44,7 @@
               邮箱：1309264003@qq.com
             </li>
             <li class="contact-li">
-              微信：lyc8023
+              微信：lyc_8023
             </li>
             <li class="contact-li">
               QQ：1309264003
